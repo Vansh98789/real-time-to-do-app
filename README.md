@@ -1,4 +1,4 @@
-Demo video link : <a hreef="https://www.youtube.com/watch?v=qYgrItCJ8n0">LINK </a>
+Demo video link : <a href="https://www.youtube.com/watch?v=qYgrItCJ8n0">LINK </a>
 
 to run it in your local device ->
 1) install the gihub repo on your device
