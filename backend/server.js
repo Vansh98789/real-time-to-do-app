@@ -22,7 +22,9 @@ const io = new socketIO(server, {
 
 app.use(cors());
 app.use(express.json());
-
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
 // API routes
 app.use("/api/auth", authRoutes);
 app.use("/api/tasks", taskRoutes);
